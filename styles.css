@@ -1,0 +1,162 @@
+body
+{
+
+}
+h1
+{
+  font-family: 'Ubuntu' , sans-serif;
+}
+h2
+{
+
+}
+h3
+{
+  transition: transform .2s;
+}
+h3:hover
+{
+  transform: scale(1.5);
+}
+p
+{
+
+}
+a
+{
+  text-decoration: none;
+  color: inherit;
+  transition: transform .2s;
+}
+a:hover
+{
+  transform: scale(2);
+  text-decoration: none;
+  color:#454d66;
+}
+/* ----------------------------------- BOSS --------------------------------- */
+
+.boss
+{
+  background-color: #616f39;
+}
+
+/* -------------------------------- HEAD --------------------------------- */
+
+.head
+{
+
+  padding: 5% 3%;
+  color: #002f35;
+  background-color: #f6ef98;
+}
+.head-dp
+{
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -o-border-radius:50%;
+  transition: all 1s ease-in-out;
+  width: 100%;
+  text-align: left;
+  border-radius: 100%;
+}
+.head-dp:hover
+{
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+
+}
+.headings
+{
+
+  text-align: center;
+
+}
+.main-heading
+{
+  font-family: 'Ubuntu' , sans-serif;
+  font-size: 4rem;
+}
+.sub-heading
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+}
+
+
+/* ----------------------------------- NAVIGATION-BAR ----------------------------------- */
+
+.navigation-bar
+{
+  text-align: center;
+  padding: 0% 10%;
+  padding-top: 0%;
+  padding-bottom: 4%;
+  color: #002f35;
+  background-color: #f6ef98;
+}
+
+/* ----------------------------------------- ABOUT ----------------------------------- */
+
+.about
+{
+
+  border:5px solid #002f35;
+  padding: 15% 5%;
+  color: #002f35;
+  background-color: #dff0ea;
+}
+
+
+/* ----------------------------------------- contact ----------------------------------- */
+
+.contact
+{
+  border:5px solid #002f35;
+  padding: 12% 5%;
+  color: #002f35;
+  background-color: #dff0ea;
+}
+
+/* ----------------------------------------- OWNER ----------------------------------- */
+
+.owner
+{
+  border:5px solid #002f35;
+  padding: 12% 5%;
+  color: #002f35;
+  background-color: #dff0ea;
+}
+
+/* ----------------------------------------- SERVICES ----------------------------------- */
+
+.services
+{
+  border:5px solid #002f35;
+  padding: 12% 5%;
+  color: #002f35;
+  background-color: #dff0ea;
+}
+
+/* ----------------------------------------- Others ----------------------------------- */
+
+.others
+{
+  border:5px solid #002f35;
+  padding: 12% 5%;
+  color: #002f35;
+  background-color: #dff0ea;
+}
+
+
+/* ----------------------------------------- FOOTER -------------------------------- */
+
+.foot
+{
+
+  text-align: center;
+  padding: 4% 2%;
+  color: #002f35;
+  background-color: #f6ef98;
+}
